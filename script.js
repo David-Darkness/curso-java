@@ -410,3 +410,9 @@ console.log("children:", contenedor.children); // Solo elementos hijos
 
 //!----------------------------------------------------------------
 //!---------------------------------NIVEL MEDIO--------------------  
+
+const hola = document.getElementById("Hola");
+
+hola.addEventListener("click", () => {
+    alert("Hola desde un evento");
+});
